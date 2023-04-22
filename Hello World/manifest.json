@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Hello World",
+    "version": "1.0",
+    "description": "Hello World (Browser Action) Extension. This is Priyesh Mishra, and it's my first extension project in the journey of building Chrome extensions.",
+    "icons": 
+    {
+        "128": "HelloWorld_128 [Priyesh].png",
+        "48": "HelloWorld_48 [Priyesh].png",
+        "16": "HelloWorld_16 [Priyesh].png"
+    },
+    "action":
+    {
+        "default_icon": "HelloWorld_16 [Priyesh].png",
+        "default_popup": "popup.html"
+    }
+}
