@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Expense Manager",
+    "version": "1.0",
+    "description": "Track your expenses with this extension and take charge of your finances like a pro.",
+    "icons": 
+    {
+      "128": "ExpenseManager_128.png",
+      "48": "ExpenseManager_48.png",
+      "16": "ExpenseManager_16.png"
+    },
+    "action": 
+    {
+      "default_icon": "ExpenseManager_16.png",
+      "default_popup": "popup.html"
+    },
+    "options_ui": 
+    {
+      "page": "options.html"
+    },
+    "background": 
+    {
+      "service_worker": "eventPage.js"
+    },
+    "permissions": 
+    [
+      "storage",
+      "notifications",
+      "contextMenus"
+    ]
+}
